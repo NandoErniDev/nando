@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Nando — Developer</title>
+<meta name="description" content="Nando — Developer. Projekte, Experimente und Dinge, die im Browser laufen." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230d0f0c'/%3E%3Cpath d='M9 23V9l14 14V9' stroke='%23c8f04a' stroke-width='2.5' fill='none' stroke-linejoin='round'/%3E%3C/svg%3E" />
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="top">
+  <a class="mark" href="/">N<span class="dot">.</span></a>
+  <nav>
+    <a href="#work">Projekte</a>
+    <a href="#about">Über</a>
+    <a href="https://github.com/NandoErniDev" target="_blank" rel="noreferrer">GitHub ↗</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <p class="eyebrow">Developer · Schweiz</p>
+    <h1>
+      Ich baue Dinge,<br />
+      die im Browser<br />
+      <em>sofort</em> laufen.
+    </h1>
+    <p class="lede">
+      Web-Apps, kleine Werkzeuge und Interfaces — von der ersten Zeile bis zur
+      Subdomain. Kein Baukasten, kein Bloat.
+    </p>
+    <div class="cta">
+      <a class="btn" href="#work">Projekte ansehen</a>
+      <a class="btn ghost" href="https://github.com/NandoErniDev" target="_blank" rel="noreferrer">Code auf GitHub</a>
+    </div>
+  </section>
+
+  <section id="work" class="work">
+    <div class="section-head">
+      <h2>Projekte</h2>
+      <span class="rule"></span>
+      <span class="count">04</span>
+    </div>
+
+    <ul class="projects">
+      <li>
+        <a href="https://scope.naerdev.ch" target="_blank" rel="noreferrer">
+          <span class="num">01</span>
+          <span class="body">
+            <strong>Scope</strong>
+            <span class="desc">Visueller Explorer für GitHub-Repositories — das große Ganze statt Dateibaum.</span>
+          </span>
+          <span class="tag">TypeScript</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://clip.naerdev.ch" target="_blank" rel="noreferrer">
+          <span class="num">02</span>
+          <span class="body">
+            <strong>Clip</strong>
+            <span class="desc">Temporäre Zwischenablage zwischen Geräten. Workers, D1 und R2, ohne Konten.</span>
+          </span>
+          <span class="tag">Workers</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/NandoErniDev/bench" target="_blank" rel="noreferrer">
+          <span class="num">03</span>
+          <span class="body">
+            <strong>Bench</strong>
+            <span class="desc">Plattformübergreifender Browser-Benchmark für CPU, GPU und WebGL.</span>
+          </span>
+          <span class="tag">WebGL</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://feed.naerdev.ch" target="_blank" rel="noreferrer">
+          <span class="num">04</span>
+          <span class="body">
+            <strong>PulseFeed</strong>
+            <span class="desc">Tägliches KI-News-Briefing, automatisch kuratiert und zusammengefasst.</span>
+          </span>
+          <span class="tag">Next.js</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <section id="about" class="about">
+    <div class="section-head">
+      <h2>Über</h2>
+      <span class="rule"></span>
+    </div>
+    <div class="cols">
+      <p>
+        Ich arbeite am liebsten an der Schnittstelle zwischen Design und Technik:
+        Interfaces, die sich schnell anfühlen, und Systeme, die im Hintergrund
+        einfach funktionieren.
+      </p>
+      <ul class="stack">
+        <li>TypeScript &amp; React</li>
+        <li>Next.js</li>
+        <li>Cloudflare Workers &amp; D1</li>
+        <li>Postgres</li>
+        <li>Swift</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <span>© <span id="y">2026</span> Nando</span>
+  <span class="links">
+    <a href="https://github.com/NandoErniDev" target="_blank" rel="noreferrer">GitHub</a>
+    <a href="mailto:hello@naerdev.ch">hello@naerdev.ch</a>
+  </span>
+</footer>
+
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
